@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web_Putri Tania Adelfianti</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>SELAMAT DATANG DI PERSONAL WEB PUTRI TANIA ADELFIANTI</h1>
+    </header>
+
+    <section class="profile">
+        <img src="img/28_09_2025.jpg" alt="Foto Profil" class="foto">
+    </section>
+
+    <section>
+        <table>
+            <tr>
+                <th>Nama Lengkap</th>
+                <th>NIM</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+            <tr>
+                <td>Putri Tania Adelfianti</td>
+                <td>102022400021</td>
+                <td>Rekayasa Industri</td>
+                <td>S1 Sistem Informasi</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Social-links">
+        <a href="https://instagram.com/taniadlf_" target="_blank" class="instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/putritania441_" target="_blank" class="github">
+             <i class="fab fa-github"></i>
+        </a>
+        <a href="https://youtube.com/@23putritaniaadelfianti76" target="_blank" class="youtube">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://wa.me/6282139057107" target="_blank" class="whatsapp">
+             <i class="fab fa-whatsapp"></i>
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Personal Web_Putri Tania</p>
+        <p>hari ini: <span id="tanggal"></span></p>
+    </footer>
+
+    <script>
+        document.getElementById("tanggal").innerText = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
